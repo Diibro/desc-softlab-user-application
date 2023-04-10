@@ -1,4 +1,4 @@
-
+import {BiSearchAlt} from 'react-icons/bi';
 
 import Logo from '../assets/logo_3.png'
 
@@ -15,7 +15,7 @@ const Header = () => {
           <div className='Search_container'>
                <form action="">
                     <input type="text" placeholder='Type the search keyword' />
-                    <button type="submit">Search</button>
+                    <button className='submitBtn' type="submit"><BiSearchAlt /></button>
                </form>
           </div>
 
